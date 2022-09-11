@@ -13,6 +13,13 @@
     "window": "^4.2.7"
   },
   "scripts": {
-  "start": "nodemon app.js"
-}
+    "start": "nodemon app.js"
+  },
+  "name": "weatherforecast",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
