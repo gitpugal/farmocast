@@ -1,0 +1,118 @@
+html,body{
+  background-color: #3D8361;
+  align-items: center;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin: auto;
+z-index: 1;
+transition: all .6s ease-in-out;
+}
+
+/* html{
+  position: relative;
+} */
+.forms{
+  margin: 40px auto;
+  padding: 50px;
+  box-shadow: 20px;
+  background-color: #7FB77E;
+  border-radius: 10%;
+ min-height: 400px;
+  width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+/* z-index: 10; */
+
+mix-blend-mode:hard-light;
+
+}
+
+.items{
+  margin-bottom: 50px;
+}
+
+button.btn{
+  transition: all .6s ease-in-out;
+}
+
+input[type="text"]{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  background-color: #7FB77E;
+}
+
+
+.navbar{
+ background-color: #1C6758;
+ color: white;
+}
+
+button.btn:hover{
+
+transform:scale(1.2);
+
+}
+
+
+.navbar-brand,.nav-link{
+  color: white;
+  margin-right: 10px;
+  transition: all .6s ease-in-out;
+}
+
+.navbar-brand:hover{
+  transform: scale(1.1);
+}
+.navbar-brand{
+  font-size: 2rem;
+}
+
+/*show weather css*/
+
+.top{
+  position: relative;
+  margin-top: 0;
+  padding: 20px;
+}
+
+.topContents{
+  position: absolute;
+  right: 50px;
+  top: 25px;
+  margin-left: 10px;
+  padding-left: 20px;
+}
+
+.subscribe{
+  margin-top: 40px;
+}
+h4{
+  color: yellow;
+  margin-top: 0px;
+}
+
+.leaf{
+  position: absolute;
+  left: 0;
+
+
+}
+
+.leafImage{
+  opacity: 60%;
+  -webkit-transform: scaleX(-1.5);
+  transform: scaleX(-1);
+  width: 750px;
+  /* z-index: -1; */
+  mix-blend-mode:darken;
+}
+
+.btn{
+  margin-top: 30px;
+}
+
+.nav-link:hover{
+transform: scale(1.1);
+}
