@@ -11,5 +11,8 @@
     "requests": "^0.3.0",
     "sweetalert": "^2.1.2",
     "window": "^4.2.7"
-  }
+  },
+  "scripts": {
+  "start": "nodemon app.js"
+}
 }
